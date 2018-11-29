@@ -1,0 +1,33 @@
+
+
+#meldung {
+    margin: 30px;
+    padding: 30px;
+    background-color: lightcyan;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+#willkommen,
+#in-oberhofen {
+    margin: 30px;
+    padding: 30px;
+    background-color: lightseagreen;
+    font-weight: bold;
+    font-size: 200%;
+    color: white;
+}
+
+#anzeige {
+    background-color: silver;
+    margin: 30px;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 200%;
+    border: 2px blueviolet solid;
+}
+
+button {
+    font-size: 200%;
+    padding: 30px;
+}

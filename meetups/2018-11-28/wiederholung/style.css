@@ -1,0 +1,13 @@
+h1 {
+    background-color: #7c97d1; 
+    color: white;
+}
+
+#sonderueberschrift {
+    color: green;
+}
+
+.hallo {
+    color: yellow;
+    background-color: silver;
+}
