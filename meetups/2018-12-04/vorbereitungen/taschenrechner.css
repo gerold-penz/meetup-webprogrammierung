@@ -1,0 +1,37 @@
+.calculator {
+    padding: 10px;
+    background-color: silver;
+    width: 256px;
+}
+.calculator .display {
+    width: 232px;
+    margin: 2px;
+    height: 44px;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.calculator button {
+    width: 60px;
+    height: 40px;
+    margin: 2px;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.calculator .first-row {
+    padding-left: 128px;
+}
+
+.calculator .first-row button {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.calculator .result-button {
+    width: 124px;
+}
