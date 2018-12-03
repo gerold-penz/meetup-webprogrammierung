@@ -15,12 +15,16 @@
     font-size: 20px;
 }
 
+.row {
+    font-size: 0;
+}
+
 .row button {
     width: 23%;
     height: 40px;
     margin: 1%;
     font-weight: bold;
-    font-size: 120%;
+    font-size: 20px;
 }
 
 .row.first-row {
