@@ -11,6 +11,8 @@ function showResult() {
     if (calculation.includes("=")) {
         // "="-Zeichen entfernen und berechnen
         result = calculation + eval(calculation.slice(0, -1))
+
+        // Leerzeichen um das "="-Zeichen
         result = result.replace("=", " = ")
     } else {
         result = calculation
@@ -21,7 +23,7 @@ function showResult() {
 }
 
 
-function addChars(chars) {
+function addChar(char) {
 
     // Verhindern, dass noch ein "=" hinzugefügt wird
     if (calculation.includes("=")) {
@@ -29,7 +31,7 @@ function addChars(chars) {
     }
 
     // Zeichen hinzufügen
-    calculation = calculation + chars
+    calculation = calculation + char
 
     // Ergebnis anzeigen
     showResult()
