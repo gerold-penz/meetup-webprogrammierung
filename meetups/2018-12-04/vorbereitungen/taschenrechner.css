@@ -1,37 +1,37 @@
 .calculator {
-    padding: 10px;
+    padding: 1%;
     background-color: silver;
-    width: 256px;
+    width: 300px;
 }
-.calculator .display {
-    width: 232px;
-    margin: 2px;
+
+#display {
+    margin: 1%;
     height: 44px;
     background-color: cornflowerblue;
     color: white;
-    padding: 10px;
+    padding: 2%;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
 }
 
-.calculator button {
-    width: 60px;
+.row button {
+    width: 23%;
     height: 40px;
-    margin: 2px;
+    margin: 1%;
     font-weight: bold;
     font-size: 120%;
 }
 
-.calculator .first-row {
-    padding-left: 128px;
+.row.first-row {
+    text-align: right;
 }
 
-.calculator .first-row button {
+.row.first-row button {
     font-weight: normal;
     font-size: 14px;
 }
 
-.calculator .result-button {
-    width: 124px;
+.row .result-button {
+    width: 48%;
 }
