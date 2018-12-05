@@ -1,0 +1,42 @@
+#calculator {
+    background-color: silver;
+    width: 300px;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#display {
+    margin: 1%;
+    padding: 2%;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 20px;
+    height: 46px;
+    color: white;
+}
+
+.row {
+    font-size: 0;
+}
+
+.row button {
+    margin: 1%;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 2%;
+    width: 23%;
+}
+
+.row .result-button {
+    width: 48%;
+}
+
+.first-row {
+    text-align: right;
+}
+
+.first-row button {
+    font-weight: normal;
+    font-size: 16px;
+}
