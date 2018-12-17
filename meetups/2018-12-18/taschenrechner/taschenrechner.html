@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Taschenrechner</title>
+    <link rel="stylesheet" href="taschenrechner.css">
+</head>
+
+<body>
+
+    <div id="calculator">
+
+        <div id="display">
+            0
+        </div>
+        <div class="row first-row">
+            <button>DEL</button>
+            <button>CLEAR</button>
+        </div>
+        <div class="row">
+            <button onclick="addChar('7')">7</button>
+            <button onclick="addChar('8')">8</button>
+            <button onclick="addChar('9')">9</button>
+            <button onclick="addChar('/')">/</button>
+        </div>
+        <div class="row">
+            <button onclick="addChar('4')">4</button>
+            <button onclick="addChar('5')">5</button>
+            <button onclick="addChar('6')">6</button>
+            <button onclick="addChar('*')">*</button>
+        </div>
+        <div class="row">
+            <button onclick="addChar('1')">1</button>
+            <button onclick="addChar('2')">2</button>
+            <button onclick="addChar('3')">3</button>
+            <button onclick="addChar('-')">-</button>
+        </div>
+        <div class="row">
+            <button onclick="addChar('0')">0</button>
+            <button onclick="addChar('=')" class="result-button">=</button>
+            <button onclick="addChar('+')">+</button>
+        </div>
+    </div>
+
+    <script src="taschenrechner.js"></script>
+
+</body>
+
+</html>
