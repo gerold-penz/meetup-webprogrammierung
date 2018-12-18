@@ -15,8 +15,13 @@
             0
         </div>
         <div class="row first-row">
-            <button>DEL</button>
-            <button>CLEAR</button>
+            <select onchange="changeBackgroundImage()" id="backgroundImageChanger">
+                <option value="none">Kein Bild</option>
+                <option value="url('bild1.png')">Bild 1</option>
+                <option value="url('bild2.png')">Bild 2</option>
+            </select>
+            <button onclick="deleteLastChar()">DEL</button>
+            <button onclick="deleteAll()">CLEAR</button>
         </div>
         <div class="row">
             <button onclick="addChar('7')">7</button>

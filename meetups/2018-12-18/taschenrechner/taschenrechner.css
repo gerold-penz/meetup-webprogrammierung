@@ -1,6 +1,7 @@
 #calculator {
     background-color: silver;
-    width: 300px;
+    background-image: none;
+    width: 400px;
     padding: 1%;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -26,14 +27,20 @@
     font-size: 20px;
     padding: 2%;
     width: 23%;
+    opacity: 0.8;
+}
+
+.row select {
+    margin: 1%;
+    font-size: 18px;
+    padding: 2%;
+    width: 48%;
+    opacity: 0.8;
 }
 
 .row .result-button {
     width: 48%;
-}
-
-.first-row {
-    text-align: right;
+    opacity: 1;
 }
 
 .first-row button {
