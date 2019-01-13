@@ -1,6 +1,7 @@
 // Haupt-Modul der Anwendung
 
 const electron = require("electron")
+const path = require("path")
 let mainWindow = null
 
 
@@ -12,7 +13,7 @@ function createMainWindow() {
         center: true
     })
 
-    mainWindow.loadFile("./windows/main-window/taschenrechner.html")
+    mainWindow.loadFile(path.join("renderer", "main-window", "taschenrechner.html"))
     mainWindow.setMenuBarVisibility(false)
 
     mainWindow.on("closed", function() {
