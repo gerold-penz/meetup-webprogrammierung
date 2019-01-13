@@ -1,13 +1,7 @@
 {
   "name": "first-electron-app",
-  "version": "1.0.0",
   "description": "Erste Electron Anwendung",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Gerold Penz",
-  "license": "ISC",
+  "main": "index.js",
   "devDependencies": {
     "electron": "^4.0.1"
   }
