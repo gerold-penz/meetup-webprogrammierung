@@ -1,8 +1,8 @@
 {
-  "name": "taschenrechner",
+  "name": "uebung",
   "version": "1.0.0",
   "description": "",
-  "main": "main/main.js",
+  "main": "./main/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,5 @@
   "license": "ISC",
   "devDependencies": {
     "electron": "^4.0.1"
-  },
-  "dependencies": {}
+  }
 }
