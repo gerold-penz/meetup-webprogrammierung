@@ -13,7 +13,7 @@ function createMainWindow() {
         center: true
     })
 
-    mainWindow.loadFile(path.join("renderer", "main-window", "taschenrechner.html"))
+    mainWindow.loadFile(path.join("renderers", "main-window", "taschenrechner.html"))
     mainWindow.setMenuBarVisibility(false)
 
     mainWindow.on("closed", function() {
