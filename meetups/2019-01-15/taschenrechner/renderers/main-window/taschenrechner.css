@@ -1,0 +1,49 @@
+#calculator {
+    background-color: silver;
+    background-image: none;
+    width: 400px;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#display {
+    margin: 1%;
+    padding: 2%;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 20px;
+    height: 46px;
+    color: white;
+}
+
+.row {
+    font-size: 0;
+}
+
+.row button {
+    margin: 1%;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 2%;
+    width: 23%;
+    opacity: 0.8;
+}
+
+.row select {
+    margin: 1%;
+    font-size: 18px;
+    padding: 2%;
+    width: 48%;
+    opacity: 0.8;
+}
+
+.row .result-button {
+    width: 48%;
+    opacity: 1;
+}
+
+.first-row button {
+    font-weight: normal;
+    font-size: 16px;
+}
