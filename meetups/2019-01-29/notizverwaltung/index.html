@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Notizverwaltung</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>Notizverwaltung</h1>
+
+    <!-- Notizeingabebereich: BEGIN -->
+    <div id="input-area">
+        <textarea id="new-note-text" rows="6"></textarea>
+        <div id="input-area-button-container">
+            <button id="create-note-button">Notiz erstellen</button>
+        </div>
+    </div>
+    <!-- Notizeingabebereich: END -->
+
+    <!-- Notizanzeigebereich BEGIN -->
+    <div id="display-area">
+
+        <!-- Notiz BEGIN -->
+        <div class="note-container">
+            <div class="note-body">
+                [Notiz-Text]
+            </div>
+        </div>
+        <!-- Notiz END -->
+
+        <!-- Notiz BEGIN -->
+        <div class="note-container">
+            <div class="note-body">
+                [Notiz-Text]
+            </div>
+        </div>
+        <!-- Notiz END -->
+    </div>
+    <!-- Notizanzeigebereich END -->
+
+    <script src="index.js"></script>
+</body>
+
+</html>
