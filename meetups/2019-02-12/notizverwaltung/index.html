@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css"
+        integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="index.css">
+
+    <title>Notizverwaltung</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Notizverwaltung</h1>
+
+        <!-- Notizeingabebereich: BEGIN -->
+        <div class="card bg-light">
+            <div class="card-body">
+                <textarea id="new-note-text" class="form-control mb-3" rows="6"></textarea>
+                <div class="text-right">
+                    <button type="button" id="create-note-button" class="btn btn-primary btn-lg">Notiz
+                        erstellen</button>
+                </div>
+            </div>
+        </div>
+        <!-- Notizeingabebereich: END -->
+
+        <!-- Notizanzeigebereich BEGIN -->
+        <div id="display-area">
+        </div>
+        <!-- Notizanzeigebereich END -->
+
+        <script src="index.js"></script>
+
+    </div>
+
+
+</body>
+
+</html>
