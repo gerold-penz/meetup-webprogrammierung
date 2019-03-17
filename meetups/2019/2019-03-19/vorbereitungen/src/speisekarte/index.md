@@ -1,3 +1,6 @@
+---
+layout: main_template.njk
+---
 Unsere Speisekarte
 ==================
 

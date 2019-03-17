@@ -1,3 +1,6 @@
+---
+layout: main_template.njk
+---
 Kontaktseite
 ============
 
