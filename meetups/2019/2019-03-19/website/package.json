@@ -1,0 +1,15 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "eleventy-build": "eleventy --formats=md,jpg --input=src --output=dist",
+    "eleventy-serve": "eleventy --formats=md,jpg --input=src --output=dist --serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.7.1"
+  }
+}
