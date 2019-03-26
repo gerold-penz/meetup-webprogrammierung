@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "eleventy-build": "eleventy",
-    "eleventy-serve": "eleventy --serve"
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "deploy": "firebase deploy --project gasthaus-website-meetup"
   },
   "author": "",
   "license": "ISC",
