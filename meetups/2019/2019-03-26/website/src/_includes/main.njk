@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+    body {
+      background-color: silver;
+    }
+
+    .container {
+      background-color: white;
+    }
+  </style>
+  <title>{{ title }}</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <header>
+      [Ich bin der Kopf]
+    </header>
+
+    <div>
+      {{ content | safe }}
+    </div>
+
+    <footer>
+      [Ich bin der Footer]
+    </footer>
+  </div>
+
+
+</body>
+
+</html>
